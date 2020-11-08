@@ -1,0 +1,62 @@
+.container
+{
+	border: 1px solid black;
+	width: 30%;
+	height: 450px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.container .box-btn
+{
+	text-align: center;
+	position: relative;
+	top: 150px;
+}
+input[type="button"]
+{
+	width: 90%;
+	height: 30px;
+	border-radius: none;
+	cursor: pointer;
+}
+#demo
+{
+	text-align: center;
+	position: relative;
+	top: 30px;
+	font-size: 20px;
+}
+#box3
+{
+position: relative;
+top: 20px;
+}
+#box2
+{
+position: relative;
+top: 10px;
+}
+#box4
+{
+	position: relative;
+	top: 45px;
+	background-color: blue;
+	color: white;
+	border: none;
+}
+.btnask:hover
+{
+	transform: scale(1.2);
+}
+#score
+{
+	font-size: 40px;
+	font-weight: bold;
+	color: red;
+}
+.btnask
+{
+	background-color: yellow;
+}
